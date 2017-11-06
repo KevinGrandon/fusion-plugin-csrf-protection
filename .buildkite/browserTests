@@ -5,3 +5,5 @@ echo "Here are your browser tests."
 echo "pwd is: $(pwd)"
 
 echo "Root dir is? $(ls -la /)"
+
+echo "Npmrc is? $(cat ~/.npmrc)"
