@@ -15,8 +15,3 @@ steps:
     plugins:
       docker-compose#v1.5.2:
         run: fusion-plugin-csrf-protection
-  - name: ":node: :white_check_mark:"
-    command: ".buildkite/nodeTests"
-    plugins:
-      docker-compose#v1.5.2:
-        run: fusion-plugin-csrf-protection
